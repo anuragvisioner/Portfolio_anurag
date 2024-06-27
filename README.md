@@ -1,23 +1,55 @@
 # Anurag Sharma's Portfolio
 
+## Demo
+
+Check out the live demo [here](https://anuragvisioner.github.io/MyCalculator/).
+
+## Features
+### Overview
+
+### Responsive Design
+
+- Ensures a seamless experience across devices of all sizes.
+
+### Contact Information
+
+- Provides contact details for inquiries or collaborations.
+
+### License
+
+- All projects are open-source under the MIT License.
+
+### Future Enhancements
+
+- Plans for future projects or improvements.
+
+### How to View
+
+- Links to live demos and GitHub repositories for each project.
+
+### Blog/Resume
+
+- Links to blog posts or resume for additional context and background.
+
+### Feedback
+
+- Welcomes feedback and contributions from visitors.
+
+Anurag Sharma's portfolio showcases a collection of projects that highlight skills in web development and design.
+
 ## Projects
 
 ### MyCalculator
 
-A simple and stylish web calculator designed to perform basic arithmetic operations with a user-friendly interface.
 
-- **Demo:** [MyCalculator Demo](https://anuragvisioner.github.io/MyCalculator/)
-- **Features:** Basic arithmetic operations (addition, subtraction, multiplication, division), clear (AC) and delete (clr) functions, responsive design, percent and decimal point functionality.
-- **Technologies Used:** HTML, CSS, JavaScript
-- **License:** MIT
 
 ### MyFlipkart
 
-*(Brief description of MyFlipkart)*
+
 
 ### Miltimeter
 
-*(Brief description of Miltimeter)*
+
 
 ## Portfolio Website
 
