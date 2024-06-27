@@ -2,7 +2,7 @@
 
 ## Demo
 
-Check out the live demo [here](https://anuragvisioner.github.io/MyCalculator/).
+Check out the live demo [here](https://anuragvisioner.github.io/Portfolio_anurag/).
 
 ## Features
 ### Overview
