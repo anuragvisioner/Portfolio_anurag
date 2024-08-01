@@ -347,6 +347,7 @@ section {
 
 .menuButton .linesContainer span:before {
   top: -10px;
+  
 }
 
 .menuButton .linesContainer span:after {
@@ -822,7 +823,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
           justify-content: center;
 }
 
-.contactFormContainer form {
+/* .contactFormContainer form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -831,7 +832,19 @@ header .heroDescription .socialsResume .resumeLink:focus {
   -webkit-column-gap: 25px;
           column-gap: 25px;
   margin-bottom: 35px;
+
+} */
+.contactFormContainer form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  margin-bottom: 35px;
 }
+
 
 .contactFormContainer form input,
 .contactFormContainer form textarea {
@@ -940,6 +953,18 @@ footer p {
 /**********************/
 @media (max-width: 1040px) {
   .contactFormContainer form {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contactFormContainer form .subjectInput,
+  .contactFormContainer form .messageInput {
+    -ms-grid-column: 1;
+    grid-column: 1 / 2;
+  }
+}
+
+/* @media (max-width: 1040px) {
+  .contactFormContainer form {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
@@ -949,7 +974,7 @@ footer p {
     -ms-grid-column-span: 1;
     grid-column: 1 /2;
   }
-}
+} */
 
 /**********************/
 /*   MIN WIDTH 991PX  */
